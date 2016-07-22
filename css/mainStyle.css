@@ -1,0 +1,489 @@
+@font-face{
+	font-family: 'DS Arabic';
+	src: url('../fonts/DS_Arabic.ttf');
+}
+
+*{
+	 padding : 0;
+	 margin : 0 auto;
+	 border : 0;
+	 color: white;
+	 bottom: 0;
+
+}
+body {
+	background-color: #111111;
+}
+h1{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+	font-family: 'DS Arabic';
+}
+
+h2{
+	padding-top: 10px;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'DS Arabic';
+}
+
+p, ul, table th, table tr{
+	font-family: 'DS Arabic';
+	font-size: 18px;
+}
+
+ul li a {
+	font-family: 'DS Arabic';
+	font-size: 20px;
+	margin: 5px;
+    padding: 10px;
+}
+
+
+.blended_grid{
+	 display : block;
+	 width : 1004px;
+	 margin : 20px auto 0 auto;
+}
+
+.grid{
+	margin : 20px auto 0 auto;
+}
+
+.SiteName{
+	 margin: 20px auto 0 auto;
+	 width : 1004px;
+	 height : 120px;
+	 background-image: url("../pics/header.jpg");
+	 border-top-right-radius: 20px;
+	 border-top-left-radius: 20px;
+	 background-position-x: center;
+     background-position-y: bottom;
+}
+.SiteName h1 {
+	padding-top: 45px;
+	font-size: 60px;
+	color: white;
+	font-family: 'DS Arabic';
+
+}
+.NavigationAdmin{
+	 width : 1004px;
+	 height : 30px;
+	 background-color: #000000;
+	 display: table;
+	 list-style: none;
+	 margin: 0 auto 20px auto;
+	 border-bottom-left-radius: 20px; 
+	 border-bottom-right-radius: 20px; 
+}
+
+.NavigationAdmin ul {
+	width: 100%;
+    display: table-row;
+    text-align:center;
+    font:15px Arial, Helvetica, sans-serif;
+    list-style:none;
+}
+.NavigationAdmin ul li {
+    height:30px;
+    display:table-cell;
+    width: 150px;
+}
+.NavigationAdmin ul li a {
+    display:block;
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    border-top:1px solid #666;
+	border-bottom:1px solid #666;
+}
+
+.NavigationAdmin ul li a:hover {
+	background-color: #000;
+
+}
+
+.NavigationAdmin li:nth-child(odd) a{
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.NavigationAdmin li:nth-child(even) a{
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.NavigationGeneral{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 width : 200px;
+	 height : 2605px;
+	 background-color: #212121;
+	 border-top-left-radius: 20px;
+	 border-bottom-left-radius: 20px;
+	 border: 1px solid #424242;
+}
+
+#sidebar {
+	width: 198px; 
+	position: fixed; 
+	top: 210px;
+	list-style: none;
+ }
+#sidebar li {
+	margin-top: 10px;
+	margin-left: 3px;
+}
+#sidebar li a { 
+	text-decoration: none;
+	display: block;
+ 	padding-top: 10px;
+ 	padding-bottom: 7px;
+ 	background: orangered; 
+ 	color: #fff; 
+ 	position: relative;
+ 	border-radius: 20px;
+ 	text-align: center;
+ 	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+ }
+
+#sidebar li a:hover {
+	background-color: #212121;
+}
+
+ #sidebar li:nth-child(2) a{
+ 	padding: 10px;
+ }
+ #sidebar li:nth-child(3) a,
+ #sidebar li:nth-child(5) a{
+ 	padding-top: 5px;
+ 	padding-bottom: 15px;
+ 	height: 28px;
+ }
+
+#sidebar li:nth-child(even) a{
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#sidebar li:nth-child(odd) a{
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.CountryMap{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 width : 441px;
+	 height : 447px;
+	 border-top: 1px solid #424242;
+	 border-bottom: 1px solid #424242;
+}
+.General{
+    clear : none;
+    float : left;
+    position : relative;
+    width : 359px;
+    height : 447px;
+    background-color: #212121;
+    border-top-right-radius: 20px;
+    border: 1px solid #424242;
+}
+.General p{
+	margin: 5px;
+}
+.General ul{
+	margin-top: 18px;
+	margin-left: 20px;
+}
+.Geography{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 width : 230px;
+	 height : 1015px;
+	 background-color: #212121;
+	 border-right: 1px solid #424242;
+	 border-bottom: 1px solid #424242;
+}
+
+.Geography p{
+	margin: 5px;
+	text-align: justify;
+}
+.Climate{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 font-size: 15px; 
+	 width : 339px;
+	 height : 1015px;
+	 background-color: #212121;
+	 border-right: 1px solid #424242;
+	 border-bottom: 1px solid #424242;
+}
+
+#temperatureTable {
+	width: 98%;
+	border-collapse: collapse; 
+	font-weight: bold; 
+	text-align: center; 
+	margin: 10px auto 10px auto;
+	background-color: #eee;
+}
+#temperatureTableHeader {
+	border-bottom: 3px solid #424242;
+}
+
+#temperatureTable th, #temperatureTable td {
+	padding-left: 2px;
+	border: 1px solid #424242;
+	color: black;
+}
+#temperatureTableRight {
+	border-left: 3px solid #424242;
+}
+
+#temperatureTable a{
+	color: purple;
+}
+
+.Admin{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 width : 230px;
+	 height : 1015px;
+	 background-color: #212121;
+	 border-right: 1px solid #424242;
+	 border-bottom: 1px solid #424242;
+}
+.Admin p {
+	margin: 5px;
+	text-align: justify;
+}
+.Admin ul {
+	margin: 10px 10px;
+	-webkit-columns: 2;
+	columns: 2;
+	-moz-columns: 2;
+	width: 96%;
+	float: left;
+	padding-right: 10px;
+	list-style: none;
+}
+.Culture{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 width : 400px;
+	 height : 680px;
+	 background-color: #212121;
+	 border-right: 1px solid #424242;
+	 border-bottom: 1px solid #424242;
+}
+
+.Culture p{
+	margin: 5px;
+	text-align: justify;
+}
+
+.Culture ul {
+	margin: 10px 25px;
+}
+
+.Education{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 width : 400px;
+	 height : 680px;
+	 background-color: #212121;
+	 border-right: 1px solid #424242;
+	 border-bottom: 1px solid #424242;
+
+}
+
+.Education p{
+	margin: 5px;
+	text-align: justify;
+}
+
+.Sport{
+	 clear : none;
+	 float : left;
+	 position : relative;
+	 width : 801px;
+	 height : 460px;
+	 background-color: #212121;
+	 border-bottom: 1px solid #424242;
+	 border-right: 1px solid #424242;
+	 border-bottom-right-radius: 20px;
+	 list-style: none;
+}
+.Sport ol {
+	-webkit-columns: 2;
+	columns: 2;
+	-moz-columns: 2;
+	height: 400px;
+	list-style: none;
+	margin-left: 31px;
+}
+
+.sportTable {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.sportTable td, .sportTable th{
+	border: 1px solid #424242;
+	text-align: center;
+	padding: 1px;
+}
+
+.sportTable th:nth-child(4) {
+	width: 115px;
+}
+
+.Sport h2 {
+	padding-bottom: 10px;
+}
+
+.Footer{
+	 clear : none;
+	 float : left;
+	 position: inherit;
+	 width : 1002px;
+	 height : 60px;
+	 margin: 20px auto 20px auto;
+	 background-color: #000;
+	 border-radius: 20px;
+	 border: 1px solid #424242;
+	 text-align: center;
+	 font-weight: bold;
+	 color: white;
+}
+
+.Pagefooter{
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	bottom: 3%;
+	margin-left:-503px;
+	width : 1004px;
+	height : 60px;
+	background-color : #000;
+	border-radius: 20px;
+	border: 1px solid #424242;
+}
+
+.Pagefooter p{
+	text-align:center;
+	font-weight: bold;
+	padding: 5px;
+	color: white;
+}
+
+.Footer p:first-child {
+	padding-top: 12px;
+}
+
+
+.townTable {
+	border: 2px solid white;
+	border-collapse: collapse; 
+	text-align: center; 
+	width: 90%;
+	margin: 13px auto;
+}
+
+.Context {
+	max-width: 1004px;
+	min-width: 700px;
+	min-height: 300px;
+	position: relative;
+	clear: none;
+	margin: 20px auto auto auto;
+	width: 100%;
+	background-color: #212121;
+	border-radius: 20px;
+	border: 1px solid #424242;
+}
+
+.Context p{
+	margin: 10px;
+}
+
+.Context ul li, ul li img{
+	list-style: none;
+	margin: 40px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Heraldy {
+	margin-left: 18px;
+	margin-top: 20px;
+	width: 25%;
+	display: inline-table;
+}
+
+.Heraldy a img {
+	margin: 10px;
+	width: 90%;
+}
+
+.infoBlock {
+	float: left;
+	margin: 20px 14px 14px 14px;
+	width: 34%;
+	display: inline-block;
+}
+
+.Towns {
+	float: left;
+	margin-top: 20px;
+	width: 34%;
+	display: inline-block;
+}
+
+#rulesTable {
+	width: 70%;
+	font-size: 25px;
+	max-width: 600px;
+	background-color: #414141;
+	border-collapse: collapse;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#rulesTable th, #rulesTable td {
+	border: 1px solid black;
+	font-size: 25px;
+}
+
+#rulesTable p {
+	font-size: 25px;
+}
+
+#blockDescription {
+	background-color: #414141;
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+}
+
+#blockDescription td, #blockDescription th {
+	border: 1px solid black;
+	font-size: 25px;
+}

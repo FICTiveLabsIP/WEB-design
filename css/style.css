@@ -1,0 +1,144 @@
+p {
+	text-align: justify;
+	margin: 0 0 15px 0; 
+}
+
+menu{
+	padding-top: 0;
+	padding-left: 20px;
+	width: 125px;
+	list-style: none;
+	float: left;
+	margin-right: 15px;
+}
+
+menu li {
+	margin-bottom: 5px;
+}
+
+menu ul {
+	list-style: none;
+	padding-left: 10px;
+	margin: 0;
+}
+
+menu li a {
+	display: block;
+	padding: 3px 5px;
+	background: #616161;
+	color: #fff;
+	position: relative;
+}
+menu li a:hover {
+	background: #9E9E9E;
+}
+
+.footerText {
+	text-align: center;
+}
+
+
+#map_and_navigation {
+	margin: 0 auto;
+}
+
+#temperatureTable {
+	border-collapse: collapse; 
+	font-weight: bold; 
+	text-align: center; 
+	margin: 0 auto;
+	background-color: #eee;
+}
+#temperatureTableHeader {
+	border-bottom: 3px solid gray;
+}
+
+.temperatureTableRight {
+	border-left: 3px solid gray;
+}
+
+
+.sportTable {
+	border-collapse: collapse; 
+	text-align: center; 
+	margin: 0 auto;
+	width: 60%;
+	border-color: black;
+}
+
+img {
+	margin: 0 auto; 
+	display: block; 
+}
+
+h1 {
+	text-align: center;
+	padding-top: 15px; 
+}
+        
+
+#sidebar {
+	width: 190px; 
+	position: fixed; 
+	top: 16%;
+	left: 83%;
+	right: 80%;
+
+ }
+#sidebar ul{list-style: none; padding-left: 10px; margin: 0;}
+#sidebar li a { display: block; padding: 3px 5px; background: #616161; color: #fff; position: relative;}
+li{margin-bottom: 5px;}
+li a:hover {background: #9E9E9E;}
+
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	float:left;
+}
+
+#mainMenu {
+	width: 200px;
+	margin: 25px 65px;
+	display: block;
+}
+
+#adrar {
+	background-image: url("../pics/background.png");
+	background-repeat: repeat;
+	color: white;
+}
+
+#illizi {
+	background-color: #212121;
+	color: white;
+}
+
+#tamanrasset {
+	background-color: #0f9b5a;
+	color: white;
+}
+
+.picture {
+	float: right;
+	display: block;
+	margin-left: 80px;
+	width: 313px;
+
+}
+
+.townTable {
+	border: 2px solid white;
+	border-collapse: collapse; 
+	text-align: center; 
+	width: 50%;
+}
+
+.vilayaText {
+	width: 50%;
+}
+
+footer {
+	clear: both;
+	padding-top: 15px;
+}

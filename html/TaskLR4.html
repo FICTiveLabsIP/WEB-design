@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Задание LR4</title>
+	<link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+	<meta charset="UTF-8">
+	<meta name="Author" content="Chernenkiy A.Y.">
+	<meta keywords="Keywords" content="Популярные платформы Алжира, Популярные браузеры Мали, Популярные операционные системы Нигера, Популярные браузеры Морокко, Популярные расширения экрана Тунис, статистика Ливия">
+</head>
+<body id = "blended_grid">
+	 <div class="SiteName">
+	  	<h1>Задание LR4</h1>
+	 </div>
+	 <div class="NavigationAdmin">
+		<ul>
+		     <li>
+		     	<a href="LR4.html">ГЛАВНАЯ</a>
+		      </li>
+		     <li>
+		     	<a href="LR4_1.html">АДРАР</a>
+		     </li>
+		     <li>
+		     	<a href="LR4_2.html">ИЛЛИЗИ</a>
+		     </li>
+		     <li>
+		     	<a href="LR4_3.html">ТАМАНРАССЕТ</a>
+		     </li>
+		     <li>
+		     	<a href="TaskLR4.html">ЗАДАНИЕ LR4</a>
+		     </li>
+		 
+		</ul>
+	  </div>
+	<div class = "Context">
+	  	<ul>
+	  		<li>
+	  			<p>ФИО: Черненький А.Ю.</p>
+	  			<p>Группа: ИП-42</p>
+	  			<p>Номер варианта: 25</p>
+	  		</li>
+	  		<li>
+	  			<h2>Вариант меню:</h2>
+	  			<img src="../pics/tasklr4_menu.png"/>
+	  		</li>
+	  		<li>
+	  			<h2>Вариант модульной сетки:</h2>
+	  			<img src="../pics/tasklr4_grid_main.png"/>
+	  		</li>
+	  		<li>
+	  			<h2>Вариант модульной сетки (доп. страницы):</h2>
+	  			<img src="../pics/tasklr4_grid_add.png"/>
+	  		</li>
+	  		<li>
+	  			<h2>Список описаний-названий каждого блока</h2>
+	  			<table id="blockDescription">
+	  				<tr>
+	  					<th>Номер</th>
+	  					<th>Условное название</th>
+	  					<th>Название в реализации</th>
+	  				</tr>
+	  				<tr>
+	  					<td>1</td>
+	  					<td>Название сайта</td>
+	  					<td>header</td>
+	  				</tr>
+	  				<tr>
+	  					<td>2</td>
+	  					<td>Карта страны</td>
+	  					<td>geoMap</td>
+	  				</tr>
+	  				<tr>
+	  					<td>3</td>
+	  					<td>Меню навигации</td>
+	  					<td>menu</td>
+	  				</tr>
+	  				<tr>
+	  					<td>4</td>
+	  					<td>Обшие сведения</td>
+	  					<td>generalInformation</td>
+	  				</tr>
+	  				<tr>
+	  					<td>5</td>
+	  					<td>Географическое положение</td>
+	  					<td>geoLocation</td>
+	  				</tr>
+	  				<tr>
+	  					<td>6</td>
+	  					<td>Климат</td>
+	  					<td>climate</td>
+	  				</tr>
+	  				<tr>
+	  					<td>7</td>
+	  					<td>Административное деление</td>
+	  					<td>admin</td>
+	  				</tr>
+	  				<tr>
+	  					<td>8</td>
+	  					<td>Культура</td>
+	  					<td>culture</td>
+	  				</tr>
+	  				<tr>
+	  					<td>9</td>
+	  					<td>Образование</td>
+	  					<td>education</td>
+	  				</tr>
+	  				<tr>
+	  					<td>10</td>
+	  					<td>Спорт</td>
+	  					<td>sport</td>
+	  				</tr>
+	  				<tr>
+	  					<td>11</td>
+	  					<td>Меню навигации</td>
+	  					<td>localMenu</td>
+	  				</tr>
+	  				<tr>
+	  					<td>12</td>
+	  					<td>Подвал</td>
+	  					<td>mainFooter</td>
+	  				</tr>
+	  			</table>
+	  		</li>
+	  		<li>
+	  			<h2>Схема использования CSS-правил</h2>
+	  			<table id="rulesTable">
+	  				<tr>
+	  					<th>Правило</th>
+	  					<th>Исполнение</th>
+	  				</tr>
+	  				<tr>
+	  					<td>правило для разных тегов одного класса (несколько тегов (имен тегов, например &lt;td&gt; и &lt;tr&gt;), для которых атрибут "класс" одинаков)</td>
+	  					<td>
+	  						<p>.townTable td, .townTable th { </p>
+							<p>border: 1px solid black;</p>
+							<p>}</p>
+	  					</td>
+	  				</tr>
+	  				<tr>
+	  					<td>правила для группы тегов (т.е. группа тегов подвергаются влиянию одного и того же правила)</td>
+	  					<td>
+	  						<p>*{</p>
+							<p>padding : 0;</p>
+							<p>margin : 0 auto;</p>
+							<p>border : 0;</p>
+							<p>bottom : 0;</p>
+							<p>}</p>
+  						</td>
+	  				</tr>
+	  				<tr>
+	  					<td>правила для тега вложенного непосредственно в определенный тег</td>
+	  					<td>
+	  						<p>.menu ul {</p>
+							<p>display: table-row;</p>
+							<p>width: 100%</p>
+							<p>}</p>
+  						</td>
+	  				</tr>
+	  				<tr>
+	  					<td>правила для тега зависящего в иерархии родства от определенного тега, но через несколько предков</td>
+	  					<td>
+	  						<p>.menu li a:hover {</p>
+							<p>background-color: khaki;</p>
+							<p>color: #212121</p>
+							<p>}</p>
+  						</td>
+	  				</tr>
+	  				<tr>
+	  					<td>различные правила оформления для списков</td>
+	  					<td>
+	  						<p>.localMenu ul {</p>
+							<p>list-style: none;</p>
+							<p>padding: 0;</p>
+							<p>}</p>
+							<p>.menu ul</p>
+							<p>display: table-row;</p>
+							<p>list-style: none;</p>
+							<p>width: 100%;</p>
+							<p>}</p>
+							<p>
+  						</td>
+	  				</tr>
+	  			</table>
+	  		</li>
+	  	</ul>
+  </div>
+  <div class="Footer" style="float: none;">
+        <p> Артем Черненький, ФИВТ, ИП-42 &copy </p>
+        <p><a href="../index.html">Main</a></p>
+	</div>
+</body>
+</html>
