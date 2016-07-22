@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/template.css">
+	<link rel="stylesheet" href="../css/lab4.css">
+	<meta name="Author" content="Volodymyr Fomenko @vlfom">
+	<meta name="Keywords" content="Switzerland, Information, Climate, Culture, Sports">
+	<title>Швейцария. Фоменко Владимир Андреевич, ИП-42</title>
+</head>
+<body>
+	<div class="main-header">
+		<p>Швейцария. Фоменко В. А. ИП-42</p>
+	</div>
+	<div class="main-menu">
+		<div class="menu">
+			<ul>
+				<li><a href="LR4.html">Main page</a></li>
+				<li><a href="LR4_1.html">Zurich</a></li>
+				<li><a href="LR4_2.html">Bern</a></li>
+				<li><a href="LR4_3.html">Geneve</a></li>
+				<li><a href="LR4Task.html">Lab4 task</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="level-task">
+		<div class="task">
+		<div class="name">
+			<p><strong>ФИО: Фоменко В.А.</strong></p>
+			<p><strong>Группа: ИП-42</strong></p>
+			<p><strong>Номер варианта: 30</strong></p>
+		</div>
+		<div class="menu-var">
+			<p><strong>Вариант меню:</strong></p>
+			<img src="../img/menu-var.png">
+		</div>
+		<div class="modul-grid-var">
+			<p><strong>Вариант модульной сетки:</strong></p>
+			<img src="../img/modul-grid-var.png">
+		</div>
+		<div class="modul-grid-add-var">
+			<p><strong>Вариант модульной сетки (дополнительная страница):</strong></p>
+			<img src="../img/modul-grid-add-var.png">
+		</div>
+		<div class="block-list">
+			<p><strong>Список описаний-названий каждого блока</strong></p>
+	  			<table id="blockDescription">
+	  				<tr>
+	  					<th>Номер</th>
+	  					<th>Условное название</th>
+	  					<th>Название в реализации</th>
+	  				</tr>
+	  				<tr>
+	  					<td>1</td>
+	  					<td>Название сайта</td>
+	  					<td>main-header</td>
+	  				</tr>
+	  				<tr>
+	  					<td>2</td>
+	  					<td>Карта страны</td>
+	  					<td>class2</td>
+	  				</tr>
+	  				<tr>
+	  					<td>3</td>
+	  					<td>Меню навигации</td>
+	  					<td>class3</td>
+	  				</tr>
+	  				<tr>
+	  					<td>4</td>
+	  					<td>Обшие сведения</td>
+	  					<td>class4</td>
+	  				</tr>
+	  				<tr>
+	  					<td>5</td>
+	  					<td>Географическое положение</td>
+	  					<td>class5</td>
+	  				</tr>
+	  				<tr>
+	  					<td>6</td>
+	  					<td>Климат</td>
+	  					<td>class6</td>
+	  				</tr>
+	  				<tr>
+	  					<td>7</td>
+	  					<td>Административное деление</td>
+	  					<td>class7</td>
+	  				</tr>
+	  				<tr>
+	  					<td>8</td>
+	  					<td>Культура</td>
+	  					<td>class8</td>
+	  				</tr>
+	  				<tr>
+	  					<td>9</td>
+	  					<td>Образование</td>
+	  					<td>class9</td>
+	  				</tr>
+	  				<tr>
+	  					<td>10</td>
+	  					<td>Спорт</td>
+	  					<td>class10</td>
+	  				</tr>
+	  				<tr>
+	  					<td>11</td>
+	  					<td>Меню навигации</td>
+	  					<td>main-menu</td>
+	  				</tr>
+	  				<tr>
+	  					<td>12</td>
+	  					<td>Подвал</td>
+	  					<td>footer</td>
+	  				</tr>
+	  			</table>
+		</div>
+		<div class="css-rules">
+			<p><strong>Список описаний-названий каждого блока</strong></p>
+	  			<table>
+	  				<tr>
+	  					<th>Правило</th>
+	  					<th>Исполнение</th>
+	  				</tr>
+	  				<tr>
+	  					<td>Правило для разных тегов одного класса (несколько тегов (имен тегов, например &lt;td&gt; и &lt;tr&gt;), для которых атрибут "класс" одинаков)</td>
+	  					<td>
+	  						<p>.class7 ul, .class7 li {</p>
+							<p>    list-style:circle outside;</p>
+							<p>    margin-left:20px;</p>
+							<p>    margin-top:2px;</p>
+							<p>}</p>
+	  					</td>
+	  				</tr>
+	  				<tr>
+	  					<td>Правила для группы тегов (т.е. группа тегов подвергаются влиянию одного и того же правила)</td>
+	  					<td>
+	  						<p>*{</p>
+							<p>padding: 0;</p>
+							<p>margin: 0;</p>
+							<p>border: 0;</p>
+							<p>bottom: 0;</p>
+						    <p>outline: none;</p>
+						    <p>user-select: none;</p>
+							<p>}</p>
+  						</td>
+	  				</tr>
+	  				<tr>
+	  					<td>Правила для тега вложенного непосредственно в определенный тег</td>
+	  					<td>
+	  						<p>.menu ul li {</p>
+							<p>font-size: 14px;/p>
+							<p>height: 25px;</p>
+							<p>line-height: 25px;</p>
+							<p>}</p>
+  						</td>
+	  				</tr>
+	  				<tr>
+	  					<td>Правила для тега зависящего в иерархии родства от определенного тега, но через несколько предков</td>
+	  					<td>
+	  						<p>.menu ul li a {</p>
+							<p>cursor: pointer;</p>
+							<p>display: block;</p>
+							<p>height:100%;</p>
+							<p>width: 100%;</p>
+							<p>}</p>
+  						</td>
+	  				</tr>
+	  				<tr>
+	  					<td>Различные правила оформления для списков</td>
+	  					<td>
+	  						<p>.menu ul li {</p>
+							<p>border-radius: 5px;</p>
+							<p>width: 130px;</p>
+							<p>height: 25px;</p>
+							<p> line-height: 25px;</p>
+							<p>}</p>
+							<br />
+							<p>.submenu {</p>
+							<p>padding-left:20px;</p>
+							<p>}</p>
+							<br />
+	  						<p>ol li {</p>
+							<p>float:left;</p>
+							<p>list-style-position: outside;</p>
+							<p>list-style-type: decimal;</p>
+							<p>margin-left: 20px;</p>
+							<p>}</p>
+  						</td>
+	  				</tr>
+	  			</table>
+		</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Владимир Фоменко, ФИВТ, ИП-42 &copy</p>
+		<p><a href="../index.html">Main page</a></p>
+	</div>
+</body>
+</html>

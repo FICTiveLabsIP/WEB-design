@@ -1,0 +1,192 @@
+.container article,.container header,.container strong,.container td,.container li,.container p,.container a {
+    font-size:14px;
+}
+
+.container header p {
+    font-size:20px;
+}
+
+.container img {
+    border:1px solid #000;
+}
+
+.container table {
+    border-collapse:separate;
+    border-padding:0;
+    border-spacing:0;
+}
+
+.container table strong {
+    font-size:10px;
+}
+
+.container table.temperature {
+    width:600px;
+}
+
+.container ul,.container li {
+    list-style:circle outside;
+    margin-left:20px;
+    margin-top:2px;
+}
+
+.left-container {
+    background:#BBDEFB;
+    border:1px solid #000;
+    box-shadow:0 0 2px #000;
+    display:inline-block;
+    font-family:Aller, sans-serif;
+    height:826px;
+    left:0;
+    margin:20px;
+    position:absolute;
+    top:0;
+    width:265px;
+}
+
+.left-container main {
+    background:#FEFEFE;
+    height:720px;
+    padding:20px;
+}
+
+.menu {
+    text-align:left;
+    z-index:25;
+}
+
+.menu ul {
+    display:inline-block;
+}
+
+.menu ul li {
+    background:rgba(256,256,256,0.9);
+    border:1px solid rgba(100,100,100,0.5);
+    border-radius:5px;
+    color:#323232;
+    font-size:14px;
+    height:25px;
+    line-height:25px;
+    margin:5px 0;
+    padding:5px 15px;
+    width:130px;
+}
+
+.menu ul li a {
+    color:#323232;
+    cursor:pointer;
+    display:block;
+    font-size:14px;
+    height:100%;
+    margin:0;
+    width:100%;
+}
+
+.menu ul li:first-child {
+    margin-top:0;
+}
+
+.menu ul li:hover {
+    background:rgba(240,240,240,0.9);
+}
+
+.menu ul li:last-child {
+    margin-bottom:0;
+}
+
+.olympic td,.cities td {
+    background:#f0f0fa;
+    border:1px solid #000;
+    border-collapse:collapse;
+    padding:5px 10px;
+}
+
+.olympic td:first-child,.cities td:first-child {
+    background:#dcdcfa;
+}
+
+.olympic tr:first-child > td,.cities tr:first-child > td {
+    background:#fadcdc;
+}
+
+.submenu {
+    padding-left:20px;
+}
+
+.temperature td {
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+    height:auto;
+    line-height:25px;
+}
+
+.temperature td:first-child {
+    padding-left:2px;
+}
+
+.temperature td:last-child {
+    border-left:5px solid #aaa;
+    border-right:1px solid #000;
+}
+
+.temperature tr:first-child > td {
+    border-bottom:5px solid #aaa;
+}
+
+.temperature tr:last-child > td {
+    border-bottom:1px solid #000;
+    border-top:5px solid #aaa;
+}
+
+article {
+    margin:20px auto;
+}
+
+body {
+    min-width:1200px;
+}
+
+h2 {
+    font-size:15px;
+    margin-bottom:10px;
+}
+
+h3 {
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+header {
+    border-bottom:1px solid #000;
+    height:45px;
+}
+
+header p {
+    font-size:20px;
+    margin:20px;
+    text-align:center;
+}
+
+ol {
+    list-style-position:outside;
+    list-style-type:decimal;
+}
+
+ol li {
+    margin-left: 10px;
+    display: list-item;
+    list-style-position:outside;
+    list-style-type:decimal;
+}
+
+table.cities {
+    margin-bottom:10px;
+    margin-top:5px;
+    width:400px;
+}
+
+table.olympic {
+    margin-bottom:10px;
+    margin-top:5px;
+    width:500px;
+}

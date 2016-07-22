@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/template.css">
+	<meta name="Author" content="Volodymyr Fomenko @vlfom">
+	<meta name="Keywords" content="Switzerland, Information, Climate, Culture, Sports">
+	<title>Швейцария. Фоменко Владимир Андреевич, ИП-42</title>
+	<style>
+html {
+    text-align: center;
+}
+
+body {
+    display: inline-block;
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+}
+
+td {
+    font-size: 12px;
+}
+
+article,
+header,
+strong,
+li,
+p,
+a {
+    font-size: 14px;
+}
+
+table p strong {
+    font-size: 14px;
+}
+
+.main-header {
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    background: url('../img/switzerland_lab4.jpg');
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 0 5px black;
+}
+
+.main-header-table td {
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    background: url('../img/switzerland_lab4.jpg');
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 0 5px black;
+}
+
+.main-header p {
+    line-height: 100px;
+    font-size: 30px;
+    font-family: Aller, sans-serif ;
+    color: white;
+}
+
+.main-header-table p {
+    line-height: 100px;
+    font-size: 30px;
+    font-family: Aller, sans-serif ;
+    color: white;
+}
+
+.main-menu {
+    box-shadow: 0 0 5px black;
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+    background: #DDDDDD;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+.menu-table {
+    margin-top: 5px;
+    box-shadow: 0 0 5px black;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-table ul {
+    border-radius: 0 0 15px 15px;
+    display: inline-block;
+    width: auto;
+} 
+
+.wrap-menu {
+    text-align: center;
+}
+
+.level3 {
+    border-radius: 15px 15px 0 0;
+    margin-top: 10px;
+    box-shadow: 0 0 2px black;
+    border: 1px solid black;
+    display: inline-block;
+    height: 460px ;
+    width: 100%;
+    float: left;
+    background: #EBEFEB;
+    font-family: Aller, sans-serif ;
+}
+
+.class2 {
+    border-radius: 15px 0 0 0;
+    padding-top: 20px;
+    float: left;
+    height: 438px;
+    width: 643px;
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.class4 {
+    padding: 10px 10px 0 10px;
+    float: left;
+    height: 448px;
+    width: 178px;
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    text-align: left;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.class5 {
+    padding: 10px 10px 0 10px;
+    float: left;
+    height: 448px;
+    width: 158px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.class3 {
+    position: fixed;
+    right: 72px;
+    border-radius: 0 15px 0 0;
+    padding-top: 10px;
+    float: left;
+    height: 448px;
+    width: 173px;
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.level4 {
+    margin-top: 10px;
+    box-shadow: 0 0 2px black;
+    border: 1px solid black;
+    display: inline-block;
+    height: 720px ;
+    width: 100%;
+    float: left;
+    background: #EBEFEB;
+    font-family: Aller, sans-serif ;
+}
+
+.class6 {
+    padding: 10px;
+    float: left;
+    height: 698px;
+    width: 520px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.class7 {
+    padding: 10px;
+    float: left;
+    height: 698px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.class8 {
+    padding: 10px;
+    float: left;
+    height: 698px;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.level5 {
+    margin-top: 10px;
+    box-shadow: 0 0 2px black;
+    border: 1px solid black;
+    display: inline-block;
+    height: 385px ;
+    width: 100%;
+    float: left;
+    background: #EBEFEB;
+    font-family: Aller, sans-serif ;
+}
+
+.class9 {
+    padding: 10px;
+    float: left;
+    height: 363px;
+    width: 370px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.class10 {
+    padding: 10px;
+    float: left;
+    height: 363px;
+    width: 783px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.level0 {
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    margin-top: 10px;
+    box-shadow: 0 0 2px black;
+    border: 1px solid black;
+    display: inline-block;
+    height: 240px ;
+    width: 100%;
+    float: left;
+    background: #EBEFEB;
+    font-family: Aller, sans-serif ;
+}
+
+.class01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px 0 0 0;
+    padding: 20px;
+    float: left;
+    height: 198px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.class02 {
+    position: relative;
+    padding: 20px;
+    margin-left: 438px;
+    margin-right: 271px;
+    float: left;
+    height: 198px;
+    width: 445px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.transparent {
+    color: rgba(0,0,0,0);
+}
+
+ol {
+    list-style: decimal;
+    font-size: 10px;
+}
+
+ol li {
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+.class03 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 0;
+    padding: 40px 20px 0 20px;
+    float: left;
+    height: 198px;
+    width: 233px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    display: inline-block;
+    border: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.footer {
+    border-radius: 0 0 15px 15px;
+    margin: 10px 0;
+    padding: 10px 0;
+    box-shadow: 0 0 2px black;
+    border: 1px solid black;
+    display: inline-block;
+    height: 35px ;
+    width: 100%;
+    float: left;
+    background: #EBEFEB;
+    font-family: Aller, sans-serif ;
+}
+
+table {
+    border-padding: 0;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+table.temperature strong {
+    font-size: 10px;
+}
+
+table.temperature {
+    width: 500px;
+}
+
+.class7 ul,
+.class7 li {
+    margin-left: 20px;
+    margin-top: 2px;
+    list-style: circle outside;
+}
+
+.temperature td {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    height: auto;
+    line-height: 25px;
+}
+
+.temperature td:first-child {
+    padding-left: 2px;
+}
+
+.temperature td:last-child {
+    border-left: 5px solid rgb(170, 170, 170);
+    border-right: 1px solid black;
+}
+
+.temperature tr:first-child > td{
+    border-bottom: 5px solid rgb(170, 170, 170);
+}
+
+.temperature tr:last-child > td{
+    border-top: 5px solid rgb(170, 170, 170);
+    border-bottom: 1px solid black;
+}
+
+p.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p.title strong {
+    font-size: 14px;
+}
+
+.menu {
+    display: inline-block;
+    text-align: left ;
+    z-index: 25 ;
+}
+
+.menu ul {
+	display: inline-block;
+}
+
+.main-menu .menu ul li {
+    display: inline-block;
+    background: rgba(256,256,256,0.9) ;
+    width: 130px ; height: 30px ; line-height: 30px ;
+
+    margin: 3px 15px 5px 15px ;
+    padding: 5px 15px 5px 15px ;
+    border: 1px solid rgba(100,100,100,0.5) ;
+    border-radius: 5px ;
+
+    font-size: 14px ;
+    color: rgb(50,50,50) ;
+
+    text-align: center;
+}
+
+.class3 .menu ul li {
+    display: inline-block;
+    background: rgba(256,256,256,0.9) ;
+    width: 90px ; height: 30px ; line-height: 30px ;
+
+    margin: 3px 15px 5px 15px ;
+    padding: 5px 15px 5px 15px ;
+    border: 1px solid rgba(100,100,100,0.5) ;
+    border-radius: 5px ;
+
+    font-size: 14px ;
+    color: rgb(50,50,50) ;
+
+    text-align: center;
+}
+
+.menu ul li a {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 14px ;
+  color: rgb(50,50,50) ;
+  cursor: pointer;
+  font-family: Aller, sans-serif ;
+}
+
+.menu ul li:first-child {
+    margin-top: 0 ;
+}
+
+.menu ul li:last-child {
+    margin-bottom: 0 ;
+}
+
+.menu ul li:hover {
+    background: rgba(240,240,240,0.9) ;
+}
+
+.menu-horizontal {
+    text-align: left ;
+    z-index: 25 ;
+}
+
+.menu-horizontal ul {
+    display: inline-block;
+}
+
+.menu ul li {
+    background: rgba(256,256,256,0.9) ;
+    width: 130px ; height: 25px ; line-height: 25px ;
+
+    margin: 5px 0 5px 0 ;
+    padding: 5px 15px 5px 15px ;
+    border: 1px solid rgba(100,100,100,0.5) ;
+    border-radius: 5px ;
+
+    font-size: 14px ;
+    color: rgb(50,50,50) ;
+}
+
+.menu ul li a {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 14px ;
+  color: rgb(50,50,50) ;
+  cursor: pointer;
+}
+
+.menu ul li:first-child {
+    margin-top: 0 ;
+}
+
+.menu ul li:last-child {
+    margin-bottom: 0 ;
+}
+
+.menu ul li:hover {
+    background: rgba(240,240,240,0.9) ;
+}
+
+.submenu {
+	padding-left: 20px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+article {
+    margin: 20px auto 20px auto;
+}
+
+p:not(:first-child) {
+    text-indent: 30px;
+}
+
+ol li {
+    margin-left: 20px;
+    float: left;
+}
+
+table.olympic {
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.olympic td {
+    padding: 5px 10px 5px 10px;
+    background: rgb(240, 240, 250);
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.olympic tr:first-child > td {
+    background: rgb(250, 220, 220);
+}
+
+.olympic td:first-child {
+    background: rgb(220, 220, 250);
+}
+
+table.cities {
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-table;
+    text-align: left;
+}
+
+.cities td {
+    padding: 5px 10px 5px 10px;
+    background: rgb(240, 240, 250);
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.cities tr:first-child > td {
+    background: rgb(250, 220, 220);
+}
+
+.cities td:first-child {
+    background: rgb(220, 220, 250);
+}
+
+table.mark {
+    width: 100%;
+}
+
+tr.mark {
+    width: 100%;
+    text-align: center;
+}
+
+td.mark {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+	</style>
+</head>
+<body>
+	<table class="mark">
+		<tr class="main-header-table">
+			<td class="mark">
+				<p>Берн. Фоменко В. А. ИП-42</p>
+			</td>
+		</tr>
+		<tr class="main-menu main-menu-table">
+			<td class="menu menu-table">
+				<div class="wrap-menu">
+					<ul>
+						<li><a href="LR4.html">Main page</a></li>
+						<li><a href="LR4_1.html">Zurich</a></li>
+						<li><a href="LR4_2.html">Bern</a></li>
+						<li><a href="LR4_3.html">Geneve</a></li>
+						<li><a href="LR4Task.html">Lab4 task</a></li>
+					</ul>
+				</div>
+			</td>
+		</tr>
+		<tr class="level0">    
+			<td class="class01">
+				<p class="title"><strong>Общая информация</strong></p>
+				<p><strong>Берн</strong> — двуязычный кантон на западе центральной части Швейцарии, де-факто ее столица. Административный центр — город Берн. Население 992 617 человека (2-е место среди кантонов). Большинство населения Берна разговаривают на немецком языке, точнее верхнеалеманским акцентом. Есть некоторый процент франкоязычных жителей.</p>
+			</td>
+			<td class="class02">
+
+				<p class="title"><strong>Основные населенные пункты</strong></p>
+				<table class="cities" border="1">
+					<tr>
+						<td>Город</td>
+						<td>Население</td>
+					</tr>
+					<tr>
+						<td>Берн</td>
+						<td>122 178</td>
+					</tr>
+					<tr>
+						<td>Биль</td>
+						<td>48 735</td>
+					</tr>
+					<tr>
+						<td>Тун</td>
+						<td>41 138</td>
+					</tr>
+				</table>
+			</td>
+			<td class="class03"> 
+				<img src="../img/bern.png" width="120px" usemap="#map">
+				<map name="map">
+					<area shape="default" href = "LR3.html"/>
+				</map>
+			</td>
+		</tr>
+		<tr class="footer mark">
+			<td class="mark">
+				<p>Владимир Фоменко, ФИВТ, ИП-42 &copy</p>
+				<p><a href="../index.html">Main page</a></p>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

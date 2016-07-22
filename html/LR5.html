@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/template.css">
+	<link rel="stylesheet" href="../css/lab5.css">
+	<script type="text/javascript" src='../js/detect.js'></script>
+	<script type="text/javascript" src='../js/lab5.js'></script>
+	<meta name="Author" content="Volodymyr Fomenko @vlfom">
+	<meta name="Keywords" content="Switzerland, Information, Climate, Culture, Sports">
+	<title>Швейцария. Фоменко Владимир Андреевич, ИП-42</title>
+</head>
+<body>
+	<div class="main-header">
+		<div>
+			<p>Фоменко В. А. ИП-42. 30 вариант</p>
+		</div>
+	</div>
+	<div class="main-menu">
+		<div class="menu">
+			<div class="wrap-menu">
+				<ul>
+					<li><a href="LR4.html">Main page</a></li>
+					<li><a href="LR4_1.html">Zurich</a></li>
+					<li><a href="LR4_2.html">Bern</a></li>
+					<li><a href="LR4_3.html">Geneve</a></li>
+					<li><a href="LR4Task.html">Lab4 task</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="level0">    
+		<div class="class01">
+			<h1><p class="title"><strong>Общая информация</strong></p></h1>
+			<p><strong>Цюрих</strong> — город на северо-востоке Швейцарии, столица немецкоязычного кантона Цюрих и административный центр одноимённого округа.
+				Население — 391,1 тыс. человек, крупнейший город страны. В пределах агломерации проживает 1,2 млн человек. Расположен на берегу Цюрихского озера при выходе из него реки Лиммат, в долине между горными вершинами Утлиберг и Цюрихберг.
+				Относится к глобальным городам. В 2011 году Цюрих занял второе место в мире по качеству жизни, в 2012 году признан самым дорогим городом мира.</p>
+			</div>
+			<div class="class02">
+				<h1><p class="title"><strong>Основные населенные пункты</strong></p></h1>
+				<table class="cities" border="1">
+					<tr>
+						<td>Город</td>
+						<td>Население</td>
+					</tr>
+					<tr>
+						<td>Цюрих</td>
+						<td>347 517</td>
+					</tr>
+					<tr>
+						<td>Винтертур</td>
+						<td>93 546</td>
+					</tr>
+					<tr>
+						<td>Устер</td>
+						<td>29 855</td>
+					</tr>
+				</table>
+			</div>
+			<div class="class03">
+				<img src="../img/zurich.png" width="200px" title="Zurich's armorial" alt="Zurich's armorial" href="LR3.html" usemap="#map">
+				<map name="map">
+					<area shape="default" href = "LR3.html"/>
+				</map>
+			</div>
+		</div>
+		<div class="level6">
+			<h1><p class="title"><strong>Сведения о системе пользователя:</strong></p></h1>
+			<p id="user-system-info"></p>
+		</div>
+		<div class="level7">
+			<h1><p class="title"><strong>Примитивы:</strong></p></h1>
+			<canvas class="canvas1"></canvas>
+		</div>
+		<div class="level9">
+			<h1><p class="title"><strong>Элементы управления:</strong></p></h1>
+			<input type="button" ondblclick="changeHeadersFont()" value="Изменить шрифт заголовков">
+			<input type="button" ondblclick="alert(headersCount())" value="Кол-во заголовков в документе">
+			<input type="button" ondblclick="alert(checkPhoneNumber(document.getElementById('textarea').value))" value="Проверить номер телефона">
+			<input type="text" text="Введите текст для проверки" id="textarea">
+		</div>
+		<div class="footer">
+				<p>Владимир Фоменко, ФИВТ, ИП-42 &copy</p>
+				<p><a href="../index.html">Main page</a></p>
+		</div>
+	</div>
+</body>
+</html>

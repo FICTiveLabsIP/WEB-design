@@ -1,0 +1,76 @@
+.middle-container {
+    box-shadow: 0 0 2px black;
+    margin: 20px 305px 20px 305px;
+    border: 1px solid black;
+    display: inline-block;
+    height: 2550px ;
+    width: 740px;
+    float: left;
+    background: #E1BEE7;
+    font-family: Aller, sans-serif ;
+}
+
+.middle-container main {
+    background: #FAFAFA;
+    height: 2464px;
+    padding: 10px 30px 10px 30px;
+    text-align: left;
+} 
+
+.right-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 2px black;
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    height: 65px ;
+    width: 265px;
+    background: #B2DFDB;
+    font-family: Aller, sans-serif ;
+}
+
+.middle-container img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.middle-container table {
+    width: 300px;
+    display: inline-block;
+    border-padding: 0;
+    border-spacing: 0;
+    border-collapse: separate;
+    margin: 0 10px 10px 10px;
+}
+
+.middle-container table td {
+    padding: 2px;
+    background: white;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.middle-container table td:last-child {
+    border-right: 1px solid black;
+}
+
+.middle-container table tr:last-child > td {
+    border-bottom: 1px solid black;
+}
+
+.middle-container td {
+    position: relative;
+}
+
+.middle-container td p {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+
+.middle-container main p {
+    margin: 10px auto 5px 10px;
+    text-align: left;
+}

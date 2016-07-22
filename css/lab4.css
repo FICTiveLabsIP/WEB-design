@@ -1,0 +1,547 @@
+.class01 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    border-radius:15px 0 0 0;
+    display:inline-block;
+    float:left;
+    height:198px;
+    left:0;
+    padding:20px;
+    position:absolute;
+    text-align:left;
+    top:0;
+    width:400px;
+}
+
+.class02 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:198px;
+    margin-left:438px;
+    margin-right:271px;
+    padding:20px;
+    position:relative;
+    text-align:center;
+    width:445px;
+}
+
+.class03 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    border-radius:0 15px 0 0;
+    display:inline-block;
+    float:left;
+    height:198px;
+    padding:40px 20px 0;
+    position:absolute;
+    right:0;
+    text-align:center;
+    top:0;
+    width:233px;
+}
+
+.class10 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:363px;
+    padding:10px;
+    text-align:left;
+    width:783px;
+}
+
+.class2 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    border-radius:15px 0 0 0;
+    display:inline-block;
+    float:left;
+    height:438px;
+    padding-top:20px;
+    width:643px;
+}
+
+.class3 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid #000;
+    border-radius:0 15px 0 0;
+    display:inline-block;
+    float:left;
+    height:448px;
+    padding-top:10px;
+    position:fixed;
+    right:72px;
+    width:173px;
+}
+
+.class3 .menu ul li {
+    background:rgba(256,256,256,0.9);
+    border:1px solid rgba(100,100,100,0.5);
+    border-radius:5px;
+    color:#323232;
+    display:inline-block;
+    font-size:14px;
+    height:30px;
+    line-height:30px;
+    margin:3px 15px 5px;
+    padding:5px 15px;
+    text-align:center;
+    width:90px;
+}
+
+.class4 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:448px;
+    padding:10px 10px 0;
+    text-align:left;
+    width:178px;
+}
+
+.class5 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:448px;
+    padding:10px 10px 0;
+    text-align:left;
+    width:158px;
+}
+
+.class6 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:698px;
+    padding:10px;
+    text-align:left;
+    width:520px;
+}
+
+.class7 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:698px;
+    padding:10px;
+    text-align:left;
+    width:250px;
+}
+
+.class7 ul,.class7 li {
+    list-style:circle outside;
+    margin-left:20px;
+    margin-top:2px;
+}
+
+.class8 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:698px;
+    padding:10px;
+    text-align:left;
+    width:360px;
+}
+
+.class9 {
+    background:rgba(255,255,255,0.5);
+    border:1px solid rgba(200,200,200,0.5);
+    display:inline-block;
+    float:left;
+    height:363px;
+    padding:10px;
+    text-align:left;
+    width:370px;
+}
+
+.footer {
+    background:#EBEFEB;
+    border:1px solid #000;
+    border-radius:0 0 15px 15px;
+    box-shadow:0 0 2px #000;
+    display:inline-block;
+    float:left;
+    font-family:Aller, sans-serif;
+    height:35px;
+    margin:10px 0;
+    padding:10px 0;
+    width:100%;
+}
+
+.level0 {
+    background:#EBEFEB;
+    border:1px solid #000;
+    border-radius:15px 15px 0 0;
+    box-shadow:0 0 2px #000;
+    display:inline-block;
+    float:left;
+    font-family:Aller, sans-serif;
+    height:240px;
+    margin-top:10px;
+    position:relative;
+    width:100%;
+}
+
+.level3 {
+    background:#EBEFEB;
+    border:1px solid #000;
+    border-radius:15px 15px 0 0;
+    box-shadow:0 0 2px #000;
+    display:inline-block;
+    float:left;
+    font-family:Aller, sans-serif;
+    height:460px;
+    margin-top:10px;
+    width:100%;
+}
+
+.level4 {
+    background:#EBEFEB;
+    border:1px solid #000;
+    box-shadow:0 0 2px #000;
+    display:inline-block;
+    float:left;
+    font-family:Aller, sans-serif;
+    height:720px;
+    margin-top:10px;
+    width:100%;
+}
+
+.level5 {
+    background:#EBEFEB;
+    border:1px solid #000;
+    box-shadow:0 0 2px #000;
+    display:inline-block;
+    float:left;
+    font-family:Aller, sans-serif;
+    height:385px;
+    margin-top:10px;
+    width:100%;
+}
+
+.level-task {
+    background:#EBEFEB;
+    border:1px solid #000;
+    border-radius:15px 15px 0 0;
+    box-shadow:0 0 2px #000;
+    display:inline-block;
+    float:left;
+    font-family:Aller, sans-serif;
+    height:1860px;
+    margin-top:10px;
+    width:100%;
+}
+
+.main-header p,.main-header-table p {
+    color:#FFF;
+    font-family:Aller, sans-serif;
+    font-size:30px;
+    line-height:100px;
+}
+
+.main-header,.main-header-table td {
+    background:url(../img/switzerland_lab4.jpg);
+    background-size:cover;
+    border-radius:15px 15px 0 0;
+    box-shadow:0 0 5px #000;
+    height:100px;
+    margin-top:10px;
+    width:100%;
+}
+
+.main-menu {
+    background:#DDD;
+    border-radius:0 0 15px 15px;
+    box-shadow:0 0 5px #000;
+    height:50px;
+    margin-top:5px;
+    text-align:center;
+    width:100%;
+}
+
+.main-menu .menu ul li {
+    background:rgba(256,256,256,0.9);
+    border:1px solid rgba(100,100,100,0.5);
+    border-radius:5px;
+    color:#323232;
+    display:inline-block;
+    font-size:14px;
+    height:30px;
+    line-height:30px;
+    margin:3px 15px 5px;
+    padding:5px 15px;
+    text-align:center;
+    width:130px;
+}
+
+.menu {
+    display:inline-block;
+    text-align:left;
+    z-index:25;
+}
+
+.menu ul li {
+    background:rgba(256,256,256,0.9);
+    border:1px solid rgba(100,100,100,0.5);
+    border-radius:5px;
+    color:#323232;
+    font-size:14px;
+    height:25px;
+    line-height:25px;
+    margin:5px 0;
+    padding:5px 15px;
+    width:130px;
+}
+
+.menu ul li a {
+    color:#323232;
+    cursor:pointer;
+    display:block;
+    font-family:Aller, sans-serif;
+    font-size:14px;
+    height:100%;
+    margin:0;
+    width:100%;
+}
+
+.menu ul li:first-child {
+    margin-top:0;
+}
+
+.menu ul li:hover {
+    background:rgba(240,240,240,0.9);
+}
+
+.menu ul li:last-child {
+    margin-bottom:0;
+}
+
+.menu ul,.menu-horizontal ul {
+    display:inline-block;
+}
+
+.menu-horizontal {
+    text-align:left;
+    z-index:25;
+}
+
+.menu-table {
+    border-radius:0 0 15px 15px;
+    box-shadow:0 0 5px #000;
+    margin-top:5px;
+    text-align:center;
+    width:100%;
+}
+
+.menu-table ul {
+    border-radius:0 0 15px 15px;
+    display:inline-block;
+    width:auto;
+}
+
+.olympic td,.cities td {
+    background:#f0f0fa;
+    border:1px solid #000;
+    border-collapse:collapse;
+    padding:5px 10px;
+}
+
+.olympic td:first-child,.cities td:first-child {
+    background:#dcdcfa;
+}
+
+.olympic tr:first-child > td,.cities tr:first-child > td {
+    background:#fadcdc;
+}
+
+.submenu {
+    padding-left:20px;
+}
+
+.temperature td {
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+    height:auto;
+    line-height:25px;
+}
+
+.temperature td:first-child {
+    padding-left:2px;
+}
+
+.temperature td:last-child {
+    border-left:5px solid #aaa;
+    border-right:1px solid #000;
+}
+
+.temperature tr:first-child > td {
+    border-bottom:5px solid #aaa;
+}
+
+.temperature tr:last-child > td {
+    border-bottom:1px solid #000;
+    border-top:5px solid #aaa;
+}
+
+.transparent {
+    color:rgba(0,0,0,0);
+}
+
+article {
+    margin:20px auto;
+}
+
+article,header,strong,li,p,a,table p strong,p.title strong {
+    font-size:14px;
+}
+
+body {
+    display:inline-block;
+    max-width:1200px;
+    min-width:1200px;
+    width:1200px;
+}
+
+h2 {
+    font-size:15px;
+    margin-bottom:10px;
+}
+
+h3 {
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+html,.wrap-menu {
+    text-align:center;
+}
+
+ol {
+    font-size:10px;
+    list-style:decimal;
+}
+
+ol li {
+    float:left;
+    list-style-position:outside;
+    list-style-type:decimal;
+    margin-left:20px;
+}
+
+p.title {
+    margin-bottom:20px;
+    text-align:center;
+}
+
+p:not(:first-child) {
+    text-indent:30px;
+}
+
+table {
+    border-collapse:separate;
+    border-padding:0;
+    border-spacing:0;
+}
+
+table.cities {
+    display:inline-table;
+    margin-bottom:10px;
+    margin-top:5px;
+    text-align:left;
+    width:400px;
+}
+
+table.mark {
+    width:100%;
+}
+
+table.olympic {
+    margin-bottom:10px;
+    margin-top:5px;
+    width:300px;
+}
+
+table.temperature {
+    width:500px;
+}
+
+table.temperature strong {
+    font-size:10px;
+}
+
+td {
+    font-size:12px;
+}
+
+td.mark {
+    display:inline-block;
+    text-align:center;
+    width:100%;
+}
+
+tr.mark {
+    text-align:center;
+    width:100%;
+}
+
+.name {
+    text-align: left;
+}
+
+.task {
+    margin: 20px;
+}
+
+.task p {
+    text-indent: 0;
+}
+
+.menu-var p, .modul-grid-var p, .modul-grid-add-var p {
+    margin: 20px auto 5px auto;
+}
+
+.block-list, .css-rules {
+    text-align: center;
+}
+
+.css-rules table td:first-child {
+    width: 500px;
+}
+
+.css-rules table td:nth-child(2) {
+    text-align: left;
+    padding: 5px 40px;
+    width: 420px;
+}
+
+.css-rules table td > p:not(:first-child) {
+    margin-top: 0;
+}
+
+.css-rules table td > p:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.block-list p, .css-rules p {
+    margin: 20px auto 10px auto;
+}
+
+.block-list table, .css-rules table {
+    display: inline-table;
+}
+
+.block-list table td, .css-rules table td {
+    padding: 4px 8px;
+    font-size: 14px;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+}

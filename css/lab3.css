@@ -1,0 +1,47 @@
+.middle-container {
+    box-shadow: 0 0 2px black;
+    border: 1px solid black;
+    display: inline-block;
+    height: 2990px ;
+    width: auto;
+    margin: 20px 305px 20px 305px;
+    float: left;
+    background: #E1BEE7;
+    font-family: Aller, sans-serif ;
+}
+
+.middle-container main {
+    background: #FAFAFA;
+    height: 2904px;
+    padding: 10px 30px 10px 30px;
+    text-align: left;
+} 
+
+ol li {
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+.right-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 2px black;
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    height: 560px ;
+    width: 265px;
+    background: #B2DFDB;
+    font-family: Aller, sans-serif ;
+}
+
+.right-container main {
+    background: #F9FBE7;
+    height: 454px;
+    padding: 20px;
+}
+
+#map area:hover {
+    border: 1px solid red;
+}
